@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@100;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+    background-color: #FAE5D3;
+    margin: 1em;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#title{
+    font-family: 'Merriweather', serif;
+    padding: .5em;
+    color: black; 
+    font-size: 2.9em;
+    text-align: center;
+}
+
+#img-div {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#tribute-info{
+    margin: auto;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 1.7em;
+    margin-top: 0.5em;
+    width: 40em;
+    padding: 1em;
+}
+
+img{
+    margin-top: 2em;
+    width: 35%;
+    height: 35%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+#image{
+    margin-left: 4em;
+    justify-content: center;
+}
+
+footer{
+    background-color: #FAE5D3;
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover{
+    color: #7C5533;
+}
+
+#img-caption{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: oblique;
+    color: #7C5533;
+}
